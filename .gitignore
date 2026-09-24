@@ -1,0 +1,36 @@
+# Data and generated results must not be committed.
+*.csv
+*.jsonl
+*.jsonl.xz
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+data/
+real_attachments/
+A_data_value/
+step*_output/
+step*_final_Q/
+step*_mixture_response/
+
+# Local environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration and secrets.
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Editor and OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
